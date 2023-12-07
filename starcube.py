@@ -174,7 +174,7 @@ class BaseCube():
         cube,
         cube.move("rotate_right"),
         cube.move("rotate_right").move("rotate_right"),
-        cube.move("rotate_right").move("rotate_right").move("rotate_right"),
+        cube.move("rotate_left"),
         cube.move("rotate_up"),
         cube.move("rotate_down")
     ]

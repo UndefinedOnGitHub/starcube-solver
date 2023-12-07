@@ -46,5 +46,4 @@ class CubeSolver():
           "solved_cube": result}
     else:
       counter += 1
-      print(f"{counter=}")
       return self.solve(attempted_cubes, counter)
