@@ -26,7 +26,7 @@ bottom = BaseFace(<cornerColor>, <centerColor>)
 ...
 
 cube = StarCube(
-	top=top,
+  top=top,
   bottom=bottom,
   left=left,
   front=front,
